@@ -19,9 +19,9 @@ Training was conducted over 20 epochs with a batch size of 32.
 
 ## Results
 
-- The model achieved significant accuracy in classifying images with and without masks, demonstrating the effectiveness of using 
-transfer learning with MobileNetV2 for this task. The detailed classification report provides insights into precision, recall, 
-and F1-score, highlighting the model's strong performance in both categories.
+- The model achieves exceptional performance, with both training and validation loss nearing zero and accuracy approaching one. This indicates effective error minimization and high classification accuracy, demonstrating the model’s strong capability to generalize well on new data. The results underscore the model's robustness and suitability for accurate face mask detection in real-world scenarios.
+
+![Model Plot](./plot.png)
 
 ## Conclusion
 
@@ -30,3 +30,5 @@ pre-trained models and transfer learning. The face mask detection model, along w
 improved and integrated into various systems for public health monitoring and safety compliance.
 
 ## Documentation
+
+[Project Report](./FaceMask%20(1)-converted.pdf)
